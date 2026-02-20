@@ -24,7 +24,7 @@ describe("Calculator Logic", () => {
   });
   test("if it is not a number", () => {
     expect(multiply(Number("text"), "")).toEqual(
-      "You need to enter a valid number",
+      "You need to enter a alid number",
     );
   });
 
